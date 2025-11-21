@@ -1,5 +1,5 @@
 {% set name = "jupyterlite-ai" %}
-{% set version = "0.8.1" %}
+{% set version = "0.9.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlite_ai-{{ version }}.tar.gz
-  sha256: b3c1e6d2135dedf20d56ce9c8693883a846da73eafe4b42ed2048a614d92c432
+  sha256: bcdd9ba004533a44ad0d09b2fd931c90a1ae5dd47ad28d417a349f4366e434d8
 
 build:
   noarch: python
@@ -26,6 +26,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - jupyter-secrets-manager >=0.4,<0.5
+    - jupyterlab-diff >=0.6.0,<0.7
 
 test:
   imports:
