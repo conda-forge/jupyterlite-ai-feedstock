@@ -1,5 +1,5 @@
 {% set name = "jupyterlite-ai" %}
-{% set version = "0.14.0" %}
+{% set version = "0.16.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyterlite_ai-{{ version }}.tar.gz
-  sha256: 8ed37a059b4ccab1d9cef0a6558a7cc746db7cfa465b74fbe58e4ed2e906c896
+  sha256: cb46f2f536808be6f8b4e48afd06d45e51bb1b75410f19635c006e319e45e2e6
 
 build:
   noarch: python
