@@ -144,4 +144,5 @@ Feedstock Maintainers
 
 * [@brichet](https://github.com/brichet/)
 * [@jtpio](https://github.com/jtpio/)
+* [@krassowski](https://github.com/krassowski/)
 
